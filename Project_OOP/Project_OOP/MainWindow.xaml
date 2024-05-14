@@ -1,0 +1,64 @@
+﻿<Window x:Class="Project_OOP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project_OOP"
+        mc:Ignorable="d"
+        Title="MainWindow" SizeToContent="WidthAndHeight"  Loaded="Window_Loaded">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal" >
+            <TextBox Width="565" Margin="5" Name="tbxZoek"></TextBox>
+            <Button Width="100" Margin="5" Name="btnZoek" Click="btnZoek_Click">Zoek</Button>
+
+            <Button Width="100" Margin="5" Name="btnStop" Click="btnStop_Click">Stop met zoeken</Button>
+        </StackPanel>
+        <GroupBox Header="Personen">
+            <ListView x:Name="LstvPersonen" SelectionMode="Single"  Height="100">
+
+        </ListView>
+        </GroupBox>
+        <GroupBox Header="Bedrijven" >
+            <ListView x:Name="LstvBedrijven"  Height="100" SelectionMode="Single">
+                
+
+        </ListView>
+        </GroupBox>
+        <Label Name="lblZoek"></Label>
+       
+        
+        
+        <GroupBox Header="Voornaam" Name="grbxVoornaam" >
+            <TextBox Name="tbxVoornaam" IsEnabled="False" ></TextBox>
+        </GroupBox>
+        <GroupBox Header="Achternaam" Name="grbxAchternaam">
+            <TextBox Name="tbxAchternaam" IsEnabled="False"></TextBox>
+        </GroupBox>
+        <GroupBox Header="Bedrijfsnaam" Name="grbxBedrijfsnaam">
+            <TextBox Name="tbxBedrijfsnaam" IsEnabled="False"></TextBox>
+        </GroupBox>
+        <GroupBox Header="Adress">
+            <TextBox Name="tbxAdres" IsEnabled="False" > </TextBox>
+        </GroupBox>
+        <GroupBox Header="Telefoonnummer">
+            <TextBox Name="tbxNummer" IsEnabled="False"></TextBox>
+        </GroupBox>
+        <GroupBox Header="Email">
+            <TextBox Name="tbxMail" IsEnabled="False"></TextBox>
+        </GroupBox>
+        <GroupBox Header="Maak je keuze">
+            <ComboBox Name="cmbxKeuze" SelectionChanged="cmbxKeuze_SelectionChanged" >
+
+            </ComboBox>
+        </GroupBox>
+        <StackPanel  Orientation="Horizontal" >
+        <Button Name="btnToevoegen" Click="btnToevoegen_Click" Margin="5" Width="149"> Toevoegen</Button>
+            <Button Name="btnVeranderPersoon" Click="btnVeranderPersoon_Click" Margin="5" Width="149"> Verander Persoon</Button>
+            <Button Name="btnVeranderBedrijf" Click="btnVeranderBedrijf_Click" Margin="5" Width="149">Verander Bedrijf</Button>
+            <Button Name="btnVerwijderPersoon" Click="btnVerwijderPersoon_Click" Margin="5" Width="149"> Verwijder Persoon</Button>
+            <Button Name="btnVerwijderBedrijf" Click="btnVerwijderBedrijf_Click" Margin="5" Width="149">Verwijder Bedrijf</Button>
+        </StackPanel>
+
+
+    </StackPanel>
+</Window>

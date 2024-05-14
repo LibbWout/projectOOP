@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\32473\\OneDrive - vzw Vrij Secundair Onderwijs Poperinge\\Handleidingen\\Documenten\\oop\\Project_OOP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{080C50E3-8E6F-40EA-8583-6191F35F1FBF}|Project_OOP\\Project_OOP.csproj|c:\\users\\32473\\onedrive - vzw vrij secundair onderwijs poperinge\\handleidingen\\documenten\\oop\\project_oop\\project_oop\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080C50E3-8E6F-40EA-8583-6191F35F1FBF}|Project_OOP\\Project_OOP.csproj|solutionrelative:project_oop\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080C50E3-8E6F-40EA-8583-6191F35F1FBF}|Project_OOP\\Project_OOP.csproj|c:\\users\\32473\\onedrive - vzw vrij secundair onderwijs poperinge\\handleidingen\\documenten\\oop\\project_oop\\project_oop\\gegevens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080C50E3-8E6F-40EA-8583-6191F35F1FBF}|Project_OOP\\Project_OOP.csproj|solutionrelative:project_oop\\gegevens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080C50E3-8E6F-40EA-8583-6191F35F1FBF}|Project_OOP\\Project_OOP.csproj|c:\\users\\32473\\onedrive - vzw vrij secundair onderwijs poperinge\\handleidingen\\documenten\\oop\\project_oop\\project_oop\\bedrijf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080C50E3-8E6F-40EA-8583-6191F35F1FBF}|Project_OOP\\Project_OOP.csproj|solutionrelative:project_oop\\bedrijf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080C50E3-8E6F-40EA-8583-6191F35F1FBF}|Project_OOP\\Project_OOP.csproj|c:\\users\\32473\\onedrive - vzw vrij secundair onderwijs poperinge\\handleidingen\\documenten\\oop\\project_oop\\project_oop\\persoon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080C50E3-8E6F-40EA-8583-6191F35F1FBF}|Project_OOP\\Project_OOP.csproj|solutionrelative:project_oop\\persoon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{080C50E3-8E6F-40EA-8583-6191F35F1FBF}|Project_OOP\\Project_OOP.csproj|c:\\users\\32473\\onedrive - vzw vrij secundair onderwijs poperinge\\handleidingen\\documenten\\oop\\project_oop\\project_oop\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{080C50E3-8E6F-40EA-8583-6191F35F1FBF}|Project_OOP\\Project_OOP.csproj|solutionrelative:project_oop\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Persoon.cs",
+              "DocumentMoniker": "C:\\Users\\32473\\OneDrive - vzw Vrij Secundair Onderwijs Poperinge\\Handleidingen\\Documenten\\oop\\Project_OOP\\Project_OOP\\Persoon.cs",
+              "RelativeDocumentMoniker": "Project_OOP\\Persoon.cs",
+              "ToolTip": "C:\\Users\\32473\\OneDrive - vzw Vrij Secundair Onderwijs Poperinge\\Handleidingen\\Documenten\\oop\\Project_OOP\\Project_OOP\\Persoon.cs",
+              "RelativeToolTip": "Project_OOP\\Persoon.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T10:51:04.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bedrijf.cs",
+              "DocumentMoniker": "C:\\Users\\32473\\OneDrive - vzw Vrij Secundair Onderwijs Poperinge\\Handleidingen\\Documenten\\oop\\Project_OOP\\Project_OOP\\Bedrijf.cs",
+              "RelativeDocumentMoniker": "Project_OOP\\Bedrijf.cs",
+              "ToolTip": "C:\\Users\\32473\\OneDrive - vzw Vrij Secundair Onderwijs Poperinge\\Handleidingen\\Documenten\\oop\\Project_OOP\\Project_OOP\\Bedrijf.cs",
+              "RelativeToolTip": "Project_OOP\\Bedrijf.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T10:50:52.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\32473\\OneDrive - vzw Vrij Secundair Onderwijs Poperinge\\Handleidingen\\Documenten\\oop\\Project_OOP\\Project_OOP\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Project_OOP\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\32473\\OneDrive - vzw Vrij Secundair Onderwijs Poperinge\\Handleidingen\\Documenten\\oop\\Project_OOP\\Project_OOP\\MainWindow.xaml",
+              "RelativeToolTip": "Project_OOP\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-14T10:49:48.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\32473\\OneDrive - vzw Vrij Secundair Onderwijs Poperinge\\Handleidingen\\Documenten\\oop\\Project_OOP\\Project_OOP\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Project_OOP\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\32473\\OneDrive - vzw Vrij Secundair Onderwijs Poperinge\\Handleidingen\\Documenten\\oop\\Project_OOP\\Project_OOP\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Project_OOP\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAjwGoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T10:49:43.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Gegevens.cs",
+              "DocumentMoniker": "C:\\Users\\32473\\OneDrive - vzw Vrij Secundair Onderwijs Poperinge\\Handleidingen\\Documenten\\oop\\Project_OOP\\Project_OOP\\Gegevens.cs",
+              "RelativeDocumentMoniker": "Project_OOP\\Gegevens.cs",
+              "ToolTip": "C:\\Users\\32473\\OneDrive - vzw Vrij Secundair Onderwijs Poperinge\\Handleidingen\\Documenten\\oop\\Project_OOP\\Project_OOP\\Gegevens.cs",
+              "RelativeToolTip": "Project_OOP\\Gegevens.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T15:41:01.306Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
