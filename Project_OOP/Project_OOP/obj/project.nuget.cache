@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kwmMLcxioiCGhTJWeAoa9SaFV3Fr+BOuKXmygBFb2GpA5XzqI4ns2tLg0DEY6fv2Qsu6+taRkSlJ8XRzgGt/4A==",
+  "dgSpecHash": "0E2curR+ytzGsEs5JuZqqy+q+/imqqIZIIJsvtoI5vexTXi9HtjFTCE82oHYhZIuUfo76SxVD6cEaq0eFP62hw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\32473\\OneDrive - vzw Vrij Secundair Onderwijs Poperinge\\Handleidingen\\Documenten\\oop\\Project_OOP\\Project_OOP\\Project_OOP.csproj",
+  "projectFilePath": "C:\\Users\\32473\\OneDrive - vzw Vrij Secundair Onderwijs Poperinge\\Handleidingen\\Documenten\\ProjectOOP\\Project_OOP\\Project_OOP\\Project_OOP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\32473\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],

@@ -28,16 +28,16 @@
        
         
         
-        <GroupBox Header="Voornaam" Name="grbxVoornaam" >
-            <TextBox Name="tbxVoornaam" IsEnabled="False" ></TextBox>
+        <GroupBox Header="Voornaam" Name="grbxVoornaam" Visibility="Collapsed" >
+            <TextBox Name="tbxVoornaam"  ></TextBox>
         </GroupBox>
-        <GroupBox Header="Achternaam" Name="grbxAchternaam">
-            <TextBox Name="tbxAchternaam" IsEnabled="False"></TextBox>
+        <GroupBox Header="Achternaam" Name="grbxAchternaam" Visibility="Collapsed">
+            <TextBox Name="tbxAchternaam" ></TextBox>
         </GroupBox>
-        <GroupBox Header="Bedrijfsnaam" Name="grbxBedrijfsnaam">
-            <TextBox Name="tbxBedrijfsnaam" IsEnabled="False"></TextBox>
+        <GroupBox Header="Bedrijfsnaam" Name="grbxBedrijfsnaam" Visibility="Collapsed">
+            <TextBox Name="tbxBedrijfsnaam" ></TextBox>
         </GroupBox>
-        <GroupBox Header="Adress">
+        <GroupBox Header="Adres">
             <TextBox Name="tbxAdres" IsEnabled="False" > </TextBox>
         </GroupBox>
         <GroupBox Header="Telefoonnummer">

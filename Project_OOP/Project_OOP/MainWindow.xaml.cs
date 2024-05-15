@@ -141,22 +141,22 @@ namespace Project_OOP
 
                 if (selectedOption == selectieBedrijf)
                 {
-                    tbxBedrijfsnaam.IsEnabled = true;
+                    grbxBedrijfsnaam.Visibility = Visibility.Visible;
                     tbxAdres.IsEnabled = true;
                     tbxMail.IsEnabled = true;
                     tbxNummer.IsEnabled = true;
-                    tbxAchternaam.IsEnabled = false;
-                    tbxVoornaam.IsEnabled = false;
+                    grbxAchternaam.Visibility = Visibility.Collapsed;
+                    grbxVoornaam.Visibility = Visibility.Collapsed;
                     btnToevoegen.IsEnabled = true;
                 }
                 else if (selectedOption == selectiePersoon)
                 {
-                    tbxBedrijfsnaam.IsEnabled = false;
+                    grbxBedrijfsnaam.Visibility = Visibility.Collapsed;
                     tbxAdres.IsEnabled = true;
                     tbxMail.IsEnabled = true;
                     tbxNummer.IsEnabled = true;
-                    tbxAchternaam.IsEnabled = true;
-                    tbxVoornaam.IsEnabled = true;
+                    grbxAchternaam.Visibility = Visibility.Visible;
+                    grbxVoornaam.Visibility = Visibility.Visible;
                     btnToevoegen.IsEnabled = true;
                 }
             }
@@ -164,24 +164,30 @@ namespace Project_OOP
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-
-            string[] regels = File.ReadAllLines(System.IO.Path.Combine(path, "persoon.txt"));
-
-            foreach (string regel in regels)
+            try
             {
-                Persoon persoon = JsonConvert.DeserializeObject<Persoon>(regel);
-                personenLijst.Add(persoon);
-            }
-            string[] regels2 = File.ReadAllLines(System.IO.Path.Combine(path, "bedrijf.txt"));
+                string[] regels = File.ReadAllLines(System.IO.Path.Combine(path, "persoon.txt"));
 
-            
-            foreach (string regel in regels2)
-            {
-                Bedrijf bedrijf = JsonConvert.DeserializeObject<Bedrijf>(regel);
-                bedrijvenLijst.Add(bedrijf);
+                foreach (string regel in regels)
+                {
+                    Persoon persoon = JsonConvert.DeserializeObject<Persoon>(regel);
+                    personenLijst.Add(persoon);
+                }
+                string[] regels2 = File.ReadAllLines(System.IO.Path.Combine(path, "bedrijf.txt"));
+
+
+                foreach (string regel in regels2)
+                {
+                    Bedrijf bedrijf = JsonConvert.DeserializeObject<Bedrijf>(regel);
+                    bedrijvenLijst.Add(bedrijf);
+                }
+                LstvPersonen.ItemsSource = personenLijst;
+                LstvBedrijven.ItemsSource = bedrijvenLijst;
             }
-            LstvBedrijven.ItemsSource = bedrijvenLijst;
-            LstvPersonen.ItemsSource = personenLijst;
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Er is een fout opgetreden bij het laden van gegevens: {ex.Message}");
+            }
         }
 
         private void btnZoek_Click(object sender, RoutedEventArgs e)
@@ -248,8 +254,10 @@ namespace Project_OOP
                 }
                 else
                 {
-                    MessageBox.Show("Ongeldig e-mailadres.");
-                    return; 
+                    if(!string.IsNullOrWhiteSpace(tbxMail.Text) && !IsEmailValid(tbxMail.Text))
+                    {
+                        MessageBox.Show("Geen geldig email adres");
+                    }
                 }
 
                 if (!string.IsNullOrWhiteSpace(tbxNummer.Text))
@@ -271,6 +279,11 @@ namespace Project_OOP
                 {
                     MessageBox.Show("Geselecteerde persoon niet gevonden in de lijst.");
                 }
+                tbxAchternaam.Text = "";
+                tbxVoornaam.Text = "";
+                tbxAdres.Text = "";
+                tbxMail.Text = "";
+                tbxNummer.Text = "";
                 UpdatePersonenBestand();
                 LstvPersonen.Items.Refresh();
             }
@@ -295,9 +308,12 @@ namespace Project_OOP
                 }
                 else
                 {
-                    MessageBox.Show("Ongeldig e-mailadres.");
-                    return; 
+                    if (!string.IsNullOrWhiteSpace(tbxMail.Text) && !IsEmailValid(tbxMail.Text))
+                    {
+                        MessageBox.Show("Geen geldig email adres");
+                    }
                 }
+
 
                 if (!string.IsNullOrWhiteSpace(tbxNummer.Text))
                 {
@@ -324,7 +340,10 @@ namespace Project_OOP
                     
                     MessageBox.Show("Geselecteerd bedrijf niet gevonden in de lijst.");
                 }
-
+                tbxBedrijfsnaam.Text = "";
+                tbxAdres.Text = "";
+                tbxMail.Text = "";
+                tbxNummer.Text = "";
                 UpdateBedrijvenBestand();
                 LstvBedrijven.Items.Refresh();
             }

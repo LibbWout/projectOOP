@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\32473\\OneDrive - vzw Vrij Secundair Onderwijs Poperinge\\Handleidingen\\Documenten\\oop\\Project_OOP\\Project_OOP\\Project_OOP.csproj": {}
+    "C:\\Users\\32473\\OneDrive - vzw Vrij Secundair Onderwijs Poperinge\\Handleidingen\\Documenten\\ProjectOOP\\Project_OOP\\Project_OOP\\Project_OOP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\32473\\OneDrive - vzw Vrij Secundair Onderwijs Poperinge\\Handleidingen\\Documenten\\oop\\Project_OOP\\Project_OOP\\Project_OOP.csproj": {
+    "C:\\Users\\32473\\OneDrive - vzw Vrij Secundair Onderwijs Poperinge\\Handleidingen\\Documenten\\ProjectOOP\\Project_OOP\\Project_OOP\\Project_OOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\32473\\OneDrive - vzw Vrij Secundair Onderwijs Poperinge\\Handleidingen\\Documenten\\oop\\Project_OOP\\Project_OOP\\Project_OOP.csproj",
+        "projectUniqueName": "C:\\Users\\32473\\OneDrive - vzw Vrij Secundair Onderwijs Poperinge\\Handleidingen\\Documenten\\ProjectOOP\\Project_OOP\\Project_OOP\\Project_OOP.csproj",
         "projectName": "Project_OOP",
-        "projectPath": "C:\\Users\\32473\\OneDrive - vzw Vrij Secundair Onderwijs Poperinge\\Handleidingen\\Documenten\\oop\\Project_OOP\\Project_OOP\\Project_OOP.csproj",
+        "projectPath": "C:\\Users\\32473\\OneDrive - vzw Vrij Secundair Onderwijs Poperinge\\Handleidingen\\Documenten\\ProjectOOP\\Project_OOP\\Project_OOP\\Project_OOP.csproj",
         "packagesPath": "C:\\Users\\32473\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\32473\\OneDrive - vzw Vrij Secundair Onderwijs Poperinge\\Handleidingen\\Documenten\\oop\\Project_OOP\\Project_OOP\\obj\\",
+        "outputPath": "C:\\Users\\32473\\OneDrive - vzw Vrij Secundair Onderwijs Poperinge\\Handleidingen\\Documenten\\ProjectOOP\\Project_OOP\\Project_OOP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
